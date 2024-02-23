@@ -1,0 +1,29 @@
+* {
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 200px;
+    width: 50%;
+    height: 150px;
+    background-color:rgb(221, 208, 196);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+nav div b {
+    margin: 5px;
+}
+
+nav div {   
+    align-items: center;
+    margin: 3px;
+}
+
+
