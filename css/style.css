@@ -6,16 +6,16 @@
 
 header {
     margin: 200px;
-    width: 50%;
+    width: 40%;
     height: 150px;
-    background-color:rgb(221, 208, 196);
+    background-color:#d1c7c7;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin: 10px;
 }
 nav div b {
     margin: 5px;
@@ -24,6 +24,20 @@ nav div b {
 nav div {   
     align-items: center;
     margin: 3px;
+}
+
+.vale {
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    display: flex;
+    background-color: #eae6e3;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
 }
 
 
