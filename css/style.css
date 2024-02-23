@@ -1,27 +1,28 @@
 * {
-    margin: 103;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 50;
+    padding: 10;
+    box-sizing:content-box;
 }
 
 header {
-    width: 100%;
+    width: 70%;
     height: 300px;
-    background-color: rgb(199, 194, 188);
+    background-color: rgb(186, 193, 208);
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
     align-items:flex-start;
-    margin: 70px;
+}
+nav:nth-child(1) {
+    display: flex;
+    flex-wrap: nowrap;
+
 }
 
-ul {
-    list-style: none;
-    text-decoration: none; 
-    gap: 2rem;
-}
 nav div button {
     display: flex;
     justify-content:end;
