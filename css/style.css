@@ -10,34 +10,6 @@ header {
     background-color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -53,13 +25,13 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: #7a7575;
+    color: #797474;
     font-size: 1.2rem;
 }
 
 .contenedorBotones button{
     width: 50px;
     height: 50px;
-    background-color: #888888;
+    background-color: #7c7474;
     cursor: pointer;
 }
